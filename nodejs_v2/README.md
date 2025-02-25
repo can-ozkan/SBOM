@@ -1,6 +1,9 @@
 # Install Dependencies
 npm install express jsonwebtoken bcryptjs
 
+# Start the server
+node index.js
+
 # How to Generate SBOM
 https://www.npmjs.com/package/@cyclonedx/cyclonedx-npm \
 npm install --global @cyclonedx/cyclonedx-npm \
