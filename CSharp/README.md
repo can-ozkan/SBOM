@@ -5,3 +5,7 @@ rm packages-microsoft-prod.deb \
 sudo apt update \
 sudo apt install dotnet-sdk-8.0 -y \
 dotnet --version
+
+# Create an Application
+dotnet new console -o HelloDotNet \
+cd HelloDotNet
