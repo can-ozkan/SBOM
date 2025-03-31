@@ -16,3 +16,11 @@ dotnet add package Newtonsoft.Json
 # Build and Run your updated application
 dotnet build \
 dotnet run
+
+# Install Cyclonedx Dotnet and Generate SBOM
+https://github.com/CycloneDX/cyclonedx-dotnet \
+dotnet tool install --global CycloneDX \
+dotnet-CycloneDX \
+dotnet-CycloneDX HelloDotNet.csproj
+
+
