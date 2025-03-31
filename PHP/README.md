@@ -14,5 +14,6 @@ http://localhost:8000/
 
 ## SBOM Generation
 https://github.com/CycloneDX/cyclonedx-php-composer \
-composer require --dev cyclonedx/cyclonedx-php-composer
+composer require --dev cyclonedx/cyclonedx-php-composer \
+composer cyclonedx:make-sbom
 
