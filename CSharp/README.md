@@ -21,6 +21,7 @@ dotnet run
 https://github.com/CycloneDX/cyclonedx-dotnet \
 dotnet tool install --global CycloneDX \
 dotnet-CycloneDX \
-dotnet-CycloneDX HelloDotNet.csproj
+dotnet-CycloneDX HelloDotNet.csproj \
+You should give the csproj path as an argument
 
 
