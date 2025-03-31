@@ -1,9 +1,9 @@
-## Install Composer
-https://getcomposer.org/download/
-
 ## Install PHP
 sudo apt install php8.1-cli \
 sudo apt install php8.1-xml
+
+## Install Composer
+https://getcomposer.org/download/
 
 ## SBOM Generation
 https://github.com/CycloneDX/cyclonedx-php-composer \
