@@ -25,3 +25,10 @@ cmake --build .
 
 # Run your application
 ./md5_poco_example
+
+# Install Syft
+https://github.com/anchore/syft \
+curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sudo sh -s -- -b /usr/local/bin 
+
+# SBOM Generation
+syft scan .
