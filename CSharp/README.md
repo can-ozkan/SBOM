@@ -3,4 +3,5 @@ wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.
 sudo dpkg -i packages-microsoft-prod.deb \
 rm packages-microsoft-prod.deb \
 sudo apt update \
-sudo apt install dotnet-sdk-8.0 -y
+sudo apt install dotnet-sdk-8.0 -y \
+dotnet --version
