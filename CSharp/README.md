@@ -9,3 +9,6 @@ dotnet --version
 # Create an Application
 dotnet new console -o HelloDotNet \
 cd HelloDotNet
+
+# Add a Sample Dependency
+dotnet add package Newtonsoft.Json
