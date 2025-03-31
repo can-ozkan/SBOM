@@ -12,3 +12,7 @@ cd HelloDotNet
 
 # Add a Sample Dependency
 dotnet add package Newtonsoft.Json
+
+# Build and Run your updated application
+dotnet build \
+dotnet run
