@@ -3,5 +3,5 @@ mkdir PyCryptoDemo \
 cd PyCryptoDemo \
 python3 -m venv venv \
 source venv/bin/activate \
-pip install pycryptodome \
-pip freeze > requirements.txt
+pip3 install pycryptodome \
+pip3 freeze > requirements.txt
