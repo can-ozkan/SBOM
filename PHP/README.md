@@ -9,7 +9,8 @@ https://getcomposer.org/download/
 composer install
 
 ## Run the application
-php -S localhost:8000
+php -S localhost:8000 \
+http://localhost:8000/
 
 ## SBOM Generation
 https://github.com/CycloneDX/cyclonedx-php-composer \
